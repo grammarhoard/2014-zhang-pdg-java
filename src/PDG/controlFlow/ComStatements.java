@@ -16,4 +16,23 @@ public class ComStatements {
 		}
 		System.out.println("End");
 	}
+	
+	public int test2(){
+		int i = 3;
+		int j = 4;
+		switch(i+1){
+			case 4: {
+				if(j == 4) return 4;
+				else{
+					System.out.println("-4");
+					return -4;
+				}
+			}
+			case 5: return 5;
+			default:{
+				i++;
+				return 6;
+			}
+		}
+	}
 }
