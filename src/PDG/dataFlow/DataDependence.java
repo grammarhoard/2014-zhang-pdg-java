@@ -1,6 +1,6 @@
 package PDG.dataFlow;
 
-public class InOut {
+public class DataDependence {
 	public void testIO(){
 		int n = 0;
 		int i = 1;
