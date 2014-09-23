@@ -1,6 +1,6 @@
-package PDG.dataFlow;
+package PDG;
 
-public class DataDependence {
+public class Sum {
 	public void testIO(){
 		int n = 0;
 		int i = 1;
